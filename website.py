@@ -9,6 +9,7 @@ model = load_model('model.h5')
 labels = ['Lung_Opacity', 'Normal', 'Viral Pneumonia']
 
 st.title('Viral Pneumonia Detection')
+st.write('By: Roger Zhu')
 st.write('upload image for classification')
 
 file = st.file_uploader("", type=["jpg", "png"])
